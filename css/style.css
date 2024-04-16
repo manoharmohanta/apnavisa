@@ -2202,3 +2202,7 @@ textarea {
       .site-footer .social li a:hover {
         background: #2eeb00;
         color: #fff; }
+.text-justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
