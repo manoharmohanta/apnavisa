@@ -68,18 +68,22 @@
 		var specifiedElement = document.querySelector(".site-mobile-menu");
 		var mt, mtoggleTemp;
 		document.addEventListener('click', function(event) {
-			var isClickInside = specifiedElement.contains(event.target);
-			menuToggle.forEach(mtoggle => {
-				mtoggleTemp = mtoggle
-				mt = mtoggle.contains(event.target);
-			})
+			if (specifiedElement !== null) {
+				// Further code...
+				var isClickInside = specifiedElement.contains(event.target);
+				menuToggle.forEach(mtoggle => {
+					mtoggleTemp = mtoggle
+					mt = mtoggle.contains(event.target);
+				})
 
-			if (!isClickInside && !mt) {
-				if ( document.body.classList.contains('offcanvas-menu') ) {
-					document.body.classList.remove('offcanvas-menu');
-					mtoggleTemp.classList.remove('active');
+				if (!isClickInside && !mt) {
+					if ( document.body.classList.contains('offcanvas-menu') ) {
+						document.body.classList.remove('offcanvas-menu');
+						mtoggleTemp.classList.remove('active');
+					}
 				}
 			}
+			
 
 		});
 
