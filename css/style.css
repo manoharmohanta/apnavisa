@@ -2202,7 +2202,52 @@ textarea {
       .site-footer .social li a:hover {
         background: #2eeb00;
         color: #fff; }
+
 .text-justify{
   text-align: justify;
   text-justify: inter-word;
+}
+
+.header {
+  /* background-image: url('header_image.jpg'); */
+  background-size: cover;
+  /* height: 200px; */
+  /* Adjust height as needed */
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.whatsapp-form-container {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  /* Add curved border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Add shadow */
+  z-index: 9999;
+}
+
+.whatsapp-form-container label,
+.whatsapp-form-container input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.whatsapp-form-container button {
+  display: block;
+  margin-top: 10px;
+}
+.btn-block {
+  display: block;
+  width: 100%;
 }
