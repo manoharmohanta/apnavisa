@@ -2251,6 +2251,10 @@ textarea {
   display: block;
   width: 100%;
 }
-.rounded-box {
-  border-radius: 20px; /* Adjust the value to change the roundness */
+.rounded-pill {
+  border-radius: 50px; /* Adjust the value to change the roundness */
+  display: inline-block; /* Ensures the element behaves like an inline element */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #ccc; /* Example background color */
+  color: #333; /* Example text color */
 }
