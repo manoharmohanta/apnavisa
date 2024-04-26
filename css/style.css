@@ -2251,3 +2251,6 @@ textarea {
   display: block;
   width: 100%;
 }
+.rounded-box {
+  border-radius: 20px; /* Adjust the value to change the roundness */
+}
