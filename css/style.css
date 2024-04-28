@@ -2299,3 +2299,6 @@ textarea {
   background-color: #ccc; /* Example background color */
   color: #333; /* Example text color */
 }
+.carousel-inner {
+  display: flex;
+}
