@@ -5,8 +5,6 @@
 
 	AOS.init({
 		duration: 800,
-		easing: 'slide',
-		once: true
 	});
 
 	var preloader = function() {
