@@ -1906,7 +1906,7 @@ textarea {
   .video-play-wrap:hover {
     top: -10px; }
 
-.step {
+/* .step {
   padding: 30px 30px 120px 30px;
   background-color: #fff;
   margin-bottom: -42px;
@@ -1967,7 +1967,48 @@ textarea {
       visibility: visible; }
     .step:hover .more, .step:focus .more {
       background: #4877fb;
-      color: #fff; }
+      color: #fff; } */
+    .step {
+        padding: 30px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        position: relative;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease;
+        display: flex;
+        align-items: center;
+    }
+    
+    .step .icon-wrapper {
+        flex: 0 0 40%;
+        text-align: center;
+    }
+    
+    .step .icon-wrapper .flaticon-job-search {
+        font-size: 45px;
+        color: #4877fb;
+    }
+    
+    .step .content {
+        flex: 1;
+    }
+    
+    .step h3 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
+    .step p {
+        color: #8a8a8a;
+    }
+    
+    .step:hover, .step:focus {
+        outline: none;
+        top: -5px;
+    }
+    
 
 .number {
   display: inline-block;
