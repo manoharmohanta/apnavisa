@@ -1985,7 +1985,7 @@ textarea {
         text-align: center;
     }
     
-    .step .icon-wrapper .flaticon {
+    .step .icon-wrapper span {
         font-size: 45px;
         color: #4877fb;
     }
