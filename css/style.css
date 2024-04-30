@@ -19,7 +19,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #24b800;
-  --bs-secondary: #ede8f5;
+  --bs-secondary: #748d92;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -1372,7 +1372,7 @@ textarea.form-control {
   color: #24b800 !important; }
 
 .text-secondary {
-  color: #ede8f5 !important; }
+  color: #748d92 !important; }
 
 .text-danger {
   color: #dc3545 !important; }
@@ -1387,7 +1387,7 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.5) !important; }
 
 .bg-secondary {
-  background-color: #ede8f5 !important; }
+  background-color: #748d92 !important; }
 
 .bg-light {
   background-color: #f8f9fa !important; }
@@ -1463,16 +1463,16 @@ a {
       color: #fff; }
   .btn.custom-secondary {
     background-color: rgba(72, 119, 251, 0.2);
-    color: #ede8f5; }
+    color: #748d92; }
     .btn.custom-secondary:hover {
-      background-color: #ede8f5;
+      background-color: #748d92;
       color: #fff; }
   .btn.custom-white-2 {
     background-color: rgba(255, 255, 255, 0.2);
     color: #fff; }
     .btn.custom-white-2:hover {
       background-color: #fff;
-      color: #ede8f5; }
+      color: #748d92; }
 
 #overlayer {
   width: 100%;
@@ -1862,7 +1862,7 @@ textarea {
       bottom: 0;
       top: 0;
       content: "";
-      background: #ede8f5; }
+      background: #748d92; }
   .hero .heading {
     font-size: 50px;
     font-weight: 700; }
@@ -1922,7 +1922,7 @@ textarea {
     right: 0;
     top: 0;
     height: 2px;
-    background: #ede8f5;
+    background: #748d92;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: .3s all ease;
@@ -1932,7 +1932,7 @@ textarea {
     font-size: 45px;
     margin-bottom: 10px;
     display: block;
-    color: #ede8f5; }
+    color: #748d92; }
   .step h3, .step .h3 {
     font-size: 16px;
     font-weight: 500; }
@@ -1958,7 +1958,7 @@ textarea {
       transform: translate(-50%, -50%) rotate(180deg);
       line-height: 0; }
     .step .more:hover {
-      background: #ede8f5; }
+      background: #748d92; }
   .step:hover, .step:focus {
     outline: none;
     top: -5px; }
@@ -1966,7 +1966,7 @@ textarea {
       opacity: 1;
       visibility: visible; }
     .step:hover .more, .step:focus .more {
-      background: #ede8f5;
+      background: #748d92;
       color: #fff; } */
     .step {
         padding: 30px;
@@ -1987,7 +1987,7 @@ textarea {
     
     .step .icon-wrapper span {
         font-size: 45px;
-        color: #ede8f5;
+        color: #748d92;
     }
     
     .step .content {
@@ -2055,7 +2055,7 @@ textarea {
     margin-bottom: 30px;
     font-size: 40px;
     font-weight: bold;
-    color: #ede8f5; }
+    color: #748d92; }
     .pricing-item .price span {
       color: #ccc;
       font-size: 12px; }
