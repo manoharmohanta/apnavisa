@@ -2296,8 +2296,8 @@ textarea {
   border-radius: 50px; /* Adjust the value to change the roundness */
   display: inline-block; /* Ensures the element behaves like an inline element */
   padding: 10px 20px; /* Adjust padding as needed */
-  background-color: #ccc; /* Example background color */
-  color: #333; /* Example text color */
+  background-color: #748d92; /* Example background color */
+  color: #ffffff; /* Example text color */
 }
 .carousel-inner {
   display: flex;
