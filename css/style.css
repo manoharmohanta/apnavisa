@@ -2261,6 +2261,7 @@ textarea {
   bottom: 20px;
   right: 20px;
   cursor: pointer;
+  z-index: 99999;
 }
 
 .whatsapp-form-container {
@@ -2275,7 +2276,7 @@ textarea {
   /* Add curved border */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   /* Add shadow */
-  z-index: 9999;
+  z-index: 99999;
 }
 
 .whatsapp-form-container label,
@@ -2315,4 +2316,54 @@ textarea {
   width: 100%; /* Images will take the full width of their container */
   height: auto; /* Maintain aspect ratio */
   margin-left: 12px;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.pl-5 {
+  padding-left: 3rem;
+}
+
+.pr-5 {
+  padding-right: 3rem;
+}
+
+.g-3 > .row > [class^="col-"],
+.g-3 > .row > [class*=" col-"] {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.g-4 > .row > [class^="col-"],
+.g-4 > .row > [class*=" col-"] {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.g-5 > .row > [class^="col-"],
+.g-5 > .row > [class*=" col-"] {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
