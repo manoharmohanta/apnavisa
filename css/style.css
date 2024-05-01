@@ -2302,3 +2302,17 @@ textarea {
 .carousel-inner {
   display: flex;
 }
+.marquee-container {
+  width: 100%; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: flex;
+}
+
+.marquee-content img {
+  width: 100%; /* Images will take the full width of their container */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 12px;
+}
